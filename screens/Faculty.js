@@ -4,7 +4,7 @@ import {
   ScrollView, Image, Linking,
 } from 'react-native';
 
-// ── PINK THEME ──────────────────────────────────────────────
+//PINK THEME
 const P = {
   bg:      '#fdf2f8',
   card:    '#ffffff',
@@ -21,7 +21,7 @@ const P = {
   muted:   '#c084b0',
 };
 
-// ── FACULTY DATA ─────────────────────────────────────────────
+//FACULTY DATA
 const faculties = [
   {
     id: '1',
@@ -263,7 +263,7 @@ const faculties = [
 
 const MAX_RATING = 6;
 
-// ── STAR RATING ──────────────────────────────────────────────
+//STAR RATING
 function StarRating({ rating, onRate }) {
   return (
     <View style={r.container}>
@@ -287,7 +287,7 @@ const r = StyleSheet.create({
   score:     { fontSize: 13, fontWeight: '700', color: P.pink600 },
 });
 
-// ── COURSE DETAIL ────────────────────────────────────────────
+//COURSE DETAIL
 function CourseDetail({ course, onBack, rating, onRate }) {
   return (
     <ScrollView style={s.screen} contentContainerStyle={s.scrollPad}>
@@ -319,7 +319,7 @@ function CourseDetail({ course, onBack, rating, onRate }) {
   );
 }
 
-// ── FACULTY DETAIL ───────────────────────────────────────────
+//FACULTY DETAIL
 function FacultyDetail({ faculty, onBack }) {
   const [selectedCourse, setSelectedCourse] = useState(null);
   const [ratings, setRatings] = useState(() => {
@@ -381,7 +381,7 @@ function FacultyDetail({ faculty, onBack }) {
   );
 }
 
-// ── MAIN SCREEN ──────────────────────────────────────────────
+//MAIN SCREEN
 export default function Faculty() {
   const [selected, setSelected] = useState(null);
 
@@ -430,7 +430,7 @@ export default function Faculty() {
   );
 }
 
-// ── STYLES ───────────────────────────────────────────────────
+//STYLES
 const CARD_W = '48%';
 
 const s = StyleSheet.create({
