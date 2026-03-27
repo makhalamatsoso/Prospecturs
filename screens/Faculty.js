@@ -392,13 +392,21 @@ export default function Faculty() {
   return (
     <View style={s.screen}>
 
+<<<<<<< HEAD
       {/*Pink header banner*/}
+=======
+      {/* ── Pink header banner ── */}
+>>>>>>> 4bd5574cae059f74ab58e59e4f39986aacd6fe98
       <View style={s.banner}>
         <Text style={s.bannerTitle}>Our Faculties</Text>
         <Text style={s.bannerSub}>Explore {faculties.length} faculties & their courses</Text>
       </View>
 
+<<<<<<< HEAD
       {/*2-column grid*/}
+=======
+      {/* ── 2-column grid ── */}
+>>>>>>> 4bd5574cae059f74ab58e59e4f39986aacd6fe98
       <FlatList
         data={faculties}
         keyExtractor={item => item.id}

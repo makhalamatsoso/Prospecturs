@@ -1,6 +1,10 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "Luct-Prospectors",
+=======
+    "name": "Luct-app",
+>>>>>>> 4bd5574cae059f74ab58e59e4f39986aacd6fe98
     "slug": "Luct-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,7 +25,11 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
+<<<<<<< HEAD
       "package": "com.anonymous.Luctprospectors"
+=======
+      "package": "com.anonymous.Luctapp"
+>>>>>>> 4bd5574cae059f74ab58e59e4f39986aacd6fe98
     },
     "web": {
       "favicon": "./assets/favicon.png"

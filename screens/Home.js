@@ -20,26 +20,45 @@ export default function Home() {
         bounces={true}
       >
 
+<<<<<<< HEAD
         {/*Logo*/}
+=======
+        {/* Logo */}
+>>>>>>> 4bd5574cae059f74ab58e59e4f39986aacd6fe98
         <View style={s.logoRing}>
           <View style={s.logoCircle}>
             <Image source={{ uri: IMG.logo }} style={s.logo} resizeMode="cover" />
           </View>
         </View>
 
+<<<<<<< HEAD
         {/*University Name*/}
         <Text style={s.uniName}>Limkokwing University</Text>
         <Text style={s.uniSub}>of Creative Technology</Text>
 
         {/*Tagline Badge*/}
+=======
+        {/* University Name */}
+        <Text style={s.uniName}>Limkokwing University</Text>
+        <Text style={s.uniSub}>of Creative Technology</Text>
+
+        {/* Tagline Badge */}
+>>>>>>> 4bd5574cae059f74ab58e59e4f39986aacd6fe98
         <View style={s.badge}>
           <Text style={s.badgeTxt}>🏆 Lesotho's Most Award-Winning Creative University</Text>
         </View>
 
+<<<<<<< HEAD
         {/*Hero Image*/}
         <Image source={{ uri: IMG.hero }} style={s.heroImg} resizeMode="cover" />
 
         {/*About Text*/}
+=======
+        {/* Hero Image */}
+        <Image source={{ uri: IMG.hero }} style={s.heroImg} resizeMode="cover" />
+
+        {/* About Text */}
+>>>>>>> 4bd5574cae059f74ab58e59e4f39986aacd6fe98
         <View style={s.card}>
           <Text style={s.cardTitle}>Shape Your Future With Us</Text>
           <Text style={s.cardBody}>
@@ -49,7 +68,11 @@ export default function Home() {
           </Text>
         </View>
 
+<<<<<<< HEAD
         {/*Features Row*/}
+=======
+        {/* Features Row */}
+>>>>>>> 4bd5574cae059f74ab58e59e4f39986aacd6fe98
         <View style={s.featuresRow}>
           {[
             { icon: '🎨', label: 'Creative Arts' },
@@ -63,14 +86,22 @@ export default function Home() {
           ))}
         </View>
 
+<<<<<<< HEAD
         {/*Quote*/}
+=======
+        {/* Quote */}
+>>>>>>> 4bd5574cae059f74ab58e59e4f39986aacd6fe98
         <View style={s.quoteBox}>
           <Text style={s.quoteText}>
             "Creativity is the currency of the future — and your journey starts here."
           </Text>
         </View>
 
+<<<<<<< HEAD
         {/*CTA*/}
+=======
+        {/* CTA */}
+>>>>>>> 4bd5574cae059f74ab58e59e4f39986aacd6fe98
         <TouchableOpacity
           style={s.cta}
           onPress={() => Linking.openURL('https://www.limkokwing.com/page/lesotho').catch(console.error)}
@@ -79,7 +110,11 @@ export default function Home() {
           <Text style={s.ctaTxt}>Explore Limkokwing University  →</Text>
         </TouchableOpacity>
 
+<<<<<<< HEAD
         {/*Footer note*/}
+=======
+        {/* Footer note */}
+>>>>>>> 4bd5574cae059f74ab58e59e4f39986aacd6fe98
         <Text style={s.footNote}>📍 Moshoeshoe Road, Maseru Central, Lesotho</Text>
 
       </ScrollView>
@@ -92,7 +127,11 @@ const s = StyleSheet.create({
   root:   { flex: 1 },
   wrap:   { alignItems: 'center', padding: 20, paddingBottom: 60 },
 
+<<<<<<< HEAD
   //Logo
+=======
+  // Logo
+>>>>>>> 4bd5574cae059f74ab58e59e4f39986aacd6fe98
   logoRing: {
     width: 116, height: 116, borderRadius: 58,
     borderWidth: 3, borderColor: '#ec4899',
@@ -109,7 +148,11 @@ const s = StyleSheet.create({
   },
   logo: { width: 104, height: 104 },
 
+<<<<<<< HEAD
   //University Name
+=======
+  // University Name
+>>>>>>> 4bd5574cae059f74ab58e59e4f39986aacd6fe98
   uniName: {
     fontSize: 26, fontWeight: '900', color: '#be185d',
     textAlign: 'center', marginBottom: 2,

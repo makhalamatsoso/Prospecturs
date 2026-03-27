@@ -115,7 +115,11 @@ const INFO_CARDS = [
   { emoji: '🎯', value: 'Free',  label: 'No Sign Up' },
 ];
 
+<<<<<<< HEAD
 //MAIN COMPONENT
+=======
+// ── MAIN COMPONENT ───────────────────────────────────────────
+>>>>>>> 4bd5574cae059f74ab58e59e4f39986aacd6fe98
 export default function Quizzes() {
   const [screen, setScreen]     = useState('welcome');
   const [currentQ, setCurrentQ] = useState(0);
@@ -260,7 +264,11 @@ if (screen === 'quiz') {
         </View>
       </View>
 
+<<<<<<< HEAD
       {/*FlatList*/}
+=======
+      {/* FlatList */}
+>>>>>>> 4bd5574cae059f74ab58e59e4f39986aacd6fe98
       <FlatList
         ref={flatRef}
         data={questions}
@@ -290,7 +298,11 @@ if (screen === 'quiz') {
             keyboardShouldPersistTaps="handled" //FIX
           >
 
+<<<<<<< HEAD
             {/*Question*/}
+=======
+            {/* Question */}
+>>>>>>> 4bd5574cae059f74ab58e59e4f39986aacd6fe98
             <Animated.View style={[s.qCard, { transform: [{ scale: scaleAnim }] }]}>
               <View style={s.qCardHeader}>
                 <View style={s.qBadge}>
@@ -338,7 +350,11 @@ if (screen === 'quiz') {
               })}
             </View>
 
+<<<<<<< HEAD
             {/*Scroll Hint*/}
+=======
+            {/* Scroll Hint */}
+>>>>>>> 4bd5574cae059f74ab58e59e4f39986aacd6fe98
             {item.options.length > 4 && (
               <Text style={s.scrollHint}>↓ Scroll for more</Text>
             )}
