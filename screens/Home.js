@@ -20,26 +20,26 @@ export default function Home() {
         bounces={true}
       >
 
-        {/* Logo */}
+        {/*Logo*/}
         <View style={s.logoRing}>
           <View style={s.logoCircle}>
             <Image source={{ uri: IMG.logo }} style={s.logo} resizeMode="cover" />
           </View>
         </View>
 
-        {/* University Name */}
+        {/*University Name*/}
         <Text style={s.uniName}>Limkokwing University</Text>
         <Text style={s.uniSub}>of Creative Technology</Text>
 
-        {/* Tagline Badge */}
+        {/*Tagline Badge*/}
         <View style={s.badge}>
           <Text style={s.badgeTxt}>🏆 Lesotho's Most Award-Winning Creative University</Text>
         </View>
 
-        {/* Hero Image */}
+        {/*Hero Image*/}
         <Image source={{ uri: IMG.hero }} style={s.heroImg} resizeMode="cover" />
 
-        {/* About Text */}
+        {/*About Text*/}
         <View style={s.card}>
           <Text style={s.cardTitle}>Shape Your Future With Us</Text>
           <Text style={s.cardBody}>
@@ -49,7 +49,7 @@ export default function Home() {
           </Text>
         </View>
 
-        {/* Features Row */}
+        {/*Features Row*/}
         <View style={s.featuresRow}>
           {[
             { icon: '🎨', label: 'Creative Arts' },
@@ -63,14 +63,14 @@ export default function Home() {
           ))}
         </View>
 
-        {/* Quote */}
+        {/*Quote*/}
         <View style={s.quoteBox}>
           <Text style={s.quoteText}>
             "Creativity is the currency of the future — and your journey starts here."
           </Text>
         </View>
 
-        {/* CTA */}
+        {/*CTA*/}
         <TouchableOpacity
           style={s.cta}
           onPress={() => Linking.openURL('https://www.limkokwing.com/page/lesotho').catch(console.error)}
@@ -79,7 +79,7 @@ export default function Home() {
           <Text style={s.ctaTxt}>Explore Limkokwing University  →</Text>
         </TouchableOpacity>
 
-        {/* Footer note */}
+        {/*Footer note*/}
         <Text style={s.footNote}>📍 Moshoeshoe Road, Maseru Central, Lesotho</Text>
 
       </ScrollView>
@@ -92,7 +92,7 @@ const s = StyleSheet.create({
   root:   { flex: 1 },
   wrap:   { alignItems: 'center', padding: 20, paddingBottom: 60 },
 
-  // Logo
+  //Logo
   logoRing: {
     width: 116, height: 116, borderRadius: 58,
     borderWidth: 3, borderColor: '#ec4899',
@@ -109,7 +109,7 @@ const s = StyleSheet.create({
   },
   logo: { width: 104, height: 104 },
 
-  // University Name
+  //University Name
   uniName: {
     fontSize: 26, fontWeight: '900', color: '#be185d',
     textAlign: 'center', marginBottom: 2,

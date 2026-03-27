@@ -115,7 +115,7 @@ const INFO_CARDS = [
   { emoji: '🎯', value: 'Free',  label: 'No Sign Up' },
 ];
 
-// ── MAIN COMPONENT ───────────────────────────────────────────
+//MAIN COMPONENT
 export default function Quizzes() {
   const [screen, setScreen]     = useState('welcome');
   const [currentQ, setCurrentQ] = useState(0);
@@ -260,7 +260,7 @@ if (screen === 'quiz') {
         </View>
       </View>
 
-      {/* FlatList */}
+      {/*FlatList*/}
       <FlatList
         ref={flatRef}
         data={questions}
@@ -290,7 +290,7 @@ if (screen === 'quiz') {
             keyboardShouldPersistTaps="handled" //FIX
           >
 
-            {/* Question */}
+            {/*Question*/}
             <Animated.View style={[s.qCard, { transform: [{ scale: scaleAnim }] }]}>
               <View style={s.qCardHeader}>
                 <View style={s.qBadge}>
@@ -338,7 +338,7 @@ if (screen === 'quiz') {
               })}
             </View>
 
-            {/* Scroll Hint */}
+            {/*Scroll Hint*/}
             {item.options.length > 4 && (
               <Text style={s.scrollHint}>↓ Scroll for more</Text>
             )}

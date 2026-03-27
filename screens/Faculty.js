@@ -392,13 +392,13 @@ export default function Faculty() {
   return (
     <View style={s.screen}>
 
-      {/* ── Pink header banner ── */}
+      {/*Pink header banner*/}
       <View style={s.banner}>
         <Text style={s.bannerTitle}>Our Faculties</Text>
         <Text style={s.bannerSub}>Explore {faculties.length} faculties & their courses</Text>
       </View>
 
-      {/* ── 2-column grid ── */}
+      {/*2-column grid*/}
       <FlatList
         data={faculties}
         keyExtractor={item => item.id}
